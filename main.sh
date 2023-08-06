@@ -1,7 +1,7 @@
 # Clone Upstream
-git clone https://github.com/trbs/pid -b 3.0.4
-cp -rvf ./debian ./pid/
-cd ./pid
+git clone https://github.com/Venom1991/refind-btrfs -b v0.6.0
+cp -rvf ./debian ./refind-btrfs/
+cd ./refind-btrfs
 
 # Get build deps
 apt-get build-dep ./ -y
