@@ -1,11 +1,7 @@
 # Clone Upstream
-### WTF ###
-#git clone https://github.com/pop-os/repolib
-#rm -rvf ./repolib/debian
-### WTF ###
-cp -rvf ./python3-repolib.install ./debian/
-cp -rvf ./debian ./repolib/
-cd ./repolib
+git clone https://github.com/trbs/pid -b 3.0.4
+cp -rvf ./debian ./pid/
+cd ./pid
 
 # Get build deps
 apt-get build-dep ./ -y

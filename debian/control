@@ -1,4 +1,4 @@
-Source: repolib
+Source: pid
 Section: python
 Priority: optional
 Maintainer: Ian Santopietro <isantop@gmail.com>
@@ -14,30 +14,18 @@ Build-Depends: debhelper (>= 11),
                python3-setuptools,
                python3-distutils,
                python3-pytest
+               python3-installer,
+               python3-wheel,
+               python3-build
 Standards-Version: 4.1.3
-Homepage: https://github.com/isantop/repolib
+Homepage: https://github.com/trbs/pid
 XS-Python3-Version: >= 3.7
-Vcs-Browser: https://github.com/isantop/repolib
-Vcs-Git: https://github.com/isantop/repolib.git
+Vcs-Browser: https://github.com/trbs/pid
+Vcs-Git: https://github.com/trbs/pid.git
 
-Package: python3-repolib
+Package: python3-pid
 Architecture: all
 Depends: ${python3:Depends},
          ${misc:Depends},
-         apt,
-         lsb-release,
-         python3-dbus,
-         python3-debian,
-         python3-gnupg
-Recommends: python3-lazr.restfulclient,
-            python3-launchpadlib
-Description: Repository Management for APT in Python (Python 3)
- RepoLib is a Python library and CLI tool-set for managing your software
- system software repositories. It's currently set up to handle APT repositories
- on Debian-based linux distributions.
- .
- RepoLib is intended to operate on DEB822-format sources. It aims to provide
- feature parity with software-properties for most commonly used functions.
- .
- This package installs the library for Python 3.
+Description: Pidfile featuring stale detection and file-locking
 

@@ -1,4 +1,0 @@
-repolib
-repolib/command
-repolib/shortcuts
-repolib/unittest
