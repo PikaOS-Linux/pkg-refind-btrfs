@@ -13,10 +13,10 @@ Build-Depends: debhelper (>= 11),
                python3-launchpadlib,
                python3-setuptools,
                python3-distutils,
-               python3-pytest
+               python3-pytest,
                python3-installer,
                python3-wheel,
-               python3-build
+               python3-build,
 Standards-Version: 4.1.3
 Homepage: https://github.com/trbs/pid
 XS-Python3-Version: >= 3.7
