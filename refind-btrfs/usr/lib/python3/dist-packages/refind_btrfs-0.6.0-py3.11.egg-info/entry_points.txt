@@ -1,2 +1,0 @@
-[console_scripts]
-refind-btrfs = refind_btrfs:main
