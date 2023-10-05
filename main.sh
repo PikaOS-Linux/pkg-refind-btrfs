@@ -1,6 +1,5 @@
 # Clone Upstream
-#git clone https://github.com/Venom1991/refind-btrfs -b v0.6.0
-cp -rvf ./refind-btrfs.install ./debian/
+git clone https://github.com/Venom1991/refind-btrfs -b v0.6.0
 cp -rvf ./debian ./refind-btrfs/
 cd ./refind-btrfs
 
